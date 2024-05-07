@@ -1,0 +1,252 @@
+
+.input-contact:focus,
+.input-message:focus,
+.textarea-contact:focus,
+select:focus {
+  outline: none; 
+}
+.contact-img {
+    background-image: url(../../assets//breadcrumb.png.webp);
+    position: relative;
+    height: 400px;
+    z-index: 1;
+    background-position-x: center;
+    background-position-y:center ;
+    background-size: inherit;
+}
+.overlay-contact {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+/* .contact-h2 {
+    margin: 0;
+} */
+.get-in-touch{
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+.textarea-contact{
+    padding: 10px;
+    width: 624px;
+    border: 1px solid rgb(240, 233, 255);
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    height: 100%;
+    overflow: auto;
+    resize: vertical;
+    margin-bottom: 30px;
+}
+.input-contact{
+    width: 306px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(240, 233, 255);
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    &::placeholder{
+        font-family: "Roboto", sans-serif;
+        color: #999999;
+    }
+}
+.first-contact{
+    margin-right: 10px;
+}
+
+.contact-btn{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    padding: 15px;
+    background: linear-gradient(to left, #649bff, #0070fa, #649bff);
+    color: white;
+}
+.textarea-contact::placeholder {
+    color: #999999;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+}
+.inputs{
+    display: flex;
+}
+
+.input-message{
+
+    border: 1px solid rgb(240, 233, 255);
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    width: 50%;
+    &::placeholder{
+        color: #999999;
+    }
+}
+.address-icon{
+    display: flex;
+}
+.country{
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a;
+    font-family: "Playfair Display", serif;
+}
+.rosemead{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.929;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #888888;
+}
+.icon-contact{
+    margin-right: 20px;
+    font-size: 27px;
+}
+.table{
+    margin-right: 50px;
+}
+.table-adress{
+    display: flex;
+    justify-content: center;
+    align-items: 0;
+}
+.contact-button{
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    padding: 15px;
+    background: linear-gradient(to left, #649bff, #0070fa, #649bff);
+}
+.contact-box{
+    margin-bottom: 100px;
+}
+.google-map{
+    margin-left: 170px;
+}
+.map{
+    margin-bottom: 40px;
+    width: 900px;
+    height: 300px;
+}
+.address{
+    margin-top: 75px;
+}
+@media only screen and (max-width:1069px){
+    .map{
+        width: 690px;
+    height: 480px;
+    }
+}
+@media only screen and (max-width:991px){
+    .contact-h2{
+        font-size: 40px;
+    }
+    .table-adress{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;}
+    .table{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .contact-button{
+        margin-top: 50px;
+        margin-bottom:30px;
+        margin-right: 230px;
+    }
+    .address{
+        margin-right: 140px;
+    }
+    .input-contact{
+        width: 190px;
+    }
+    .textarea-contact{
+        width: 390px;
+        height: 100%;
+    }
+    .input-message{
+        width: 390px;
+        height: 48px;
+
+    }
+    .map{
+        width:690px;
+        height: 480px;
+    }
+    .google-map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .map{
+        display: none;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs input{
+        width: 100%;
+    }
+    .input-message{
+        width: 100%;
+    }
+    .textarea-contact{
+        width: 100%;
+    }
+    .table-adress{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .table{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

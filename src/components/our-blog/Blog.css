@@ -1,0 +1,114 @@
+* {
+    cursor: pointer;
+}
+
+.blog-h2-main {
+    font-size: 48px;
+    color: #242429;
+    line-height: 40px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 28px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.h5-blog {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 24px;
+    transition: all 0.8s ease 0s;
+    font-family: "Playfair Display", serif;
+
+    &:hover {
+        color: cornflowerblue;
+    }
+}
+
+.row-user-clinic {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.user-clinic-text {
+    font-family: "Roboto", sans-serif;
+    color: rgb(138, 138, 138);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.user-clinic-icon {
+    margin-right: 15px;
+    color: rgb(138, 138, 138);
+    font-size: 14px;
+}
+
+.user-clinic {
+    margin-right: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.blog-card-1 {
+    margin-right: 30px;
+    border: 1px solid #E0E0E0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 585px;
+    height: 760px;
+}
+
+.blog-cards {
+    margin-left: 30px;
+    display: flex;
+}
+
+.our-blog-content {
+    padding: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+    .blog-h2-main {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .blog-card-1 {
+        width: 360px;
+        height: 590px;
+    }
+    .h5-blog {
+        margin-bottom: 0;
+
+    }
+    .blog-cards{
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .blog-cards {
+      display: flex;
+      flex-direction: column;
+    }
+    .blog-card-1{
+        height: 525px;
+    }
+    .h5-blog{
+        margin-bottom: 5px;
+    font-size: 17px;
+    }
+    .blog-card-1 {
+      margin-bottom: 20px;
+    }
+}
+  

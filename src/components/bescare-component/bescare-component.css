@@ -1,0 +1,90 @@
+.background-photo{
+    width:100%;
+    height: 100%;
+    position: relative;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-best-care{
+    margin-bottom: 150px;
+}
+.best-care-part{
+    position: absolute;
+    top: 40%;
+    display: flex;
+    padding-left: 30px;
+    width: 100%;
+    height: 100%;
+}
+.best-care-text{
+    margin-right: 30px;
+    width: 40%;
+}
+.best-care-text h5{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #242429;
+    margin-bottom: 0;
+    line-height: 1.2em;
+}
+.best-care-text h1{
+    margin-top: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1.2em;
+
+}
+.best-care-text p{
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+}
+.momwson{
+    height: 100%px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.btn-appointment{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    padding: 15px;
+    transition: background 0.5s ease;
+    background: linear-gradient(to left, #649bff, #0070fa, #649bff);
+    color: white;
+    cursor: pointer;
+}
+.btn-appointment:hover{
+    
+    color: white;
+    background: linear-gradient(to left, #649bff, #0070fa, #649bff);
+}
+@media only screen and (max-width:991px){
+    .momwson{
+        display: none;
+    }
+    .background-photo{
+        display: none;
+    }
+    .best-care-part{
+        background-color: #F7F7F7;
+        margin-left: 0;
+        padding: 20px;
+        position: static;
+    }
+    .best-care-text{
+        width: 690px;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+}

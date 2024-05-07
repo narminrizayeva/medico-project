@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4e5a19a.css",
+    "main.js": "/static/js/main.475fd6fd.js",
+    "static/js/488.359b97fb.chunk.js": "/static/js/488.359b97fb.chunk.js",
+    "static/media/reservation_bg.png.webp": "/static/media/reservation_bg.png.cf4a7efa5060a553b69b.webp",
+    "static/media/review_bg.png.webp": "/static/media/review_bg.png.36736f272d129d20f592.webp",
+    "static/media/top_service.png.webp": "/static/media/top_service.png.37896ce308cf3fe599c0.webp",
+    "static/media/doctorappointment.png": "/static/media/doctorappointment.81bb2ae60d4f88aae172.png",
+    "static/media/blog_3.png.webp": "/static/media/blog_3.png.bd6286a0ce4c6f2ef4d4.webp",
+    "static/media/blog_2.png.webp": "/static/media/blog_2.png.98c8ddf551e7254f4325.webp",
+    "static/media/momwson.webp": "/static/media/momwson.ee7faa1902ebfb07da0d.webp",
+    "static/media/breadcrumb.png.webp": "/static/media/breadcrumb.png.f05ce1ccfa760c0824eb.webp",
+    "static/media/service-doctor.png": "/static/media/service-doctor.658c5b7a38fa9f92d3f2.png",
+    "static/media/doctor_3.png.webp": "/static/media/doctor_3.png.e29dd248e65891a1ea2d.webp",
+    "static/media/banner_bg.png.webp": "/static/media/banner_bg.png.8917ebc70b0fe3d37595.webp",
+    "static/media/doctor_4.png.webp": "/static/media/doctor_4.png.a8f2aa0f3652ed91e365.webp",
+    "static/media/doctor_2.png.webp": "/static/media/doctor_2.png.1ec2cea08a532225ee99.webp",
+    "static/media/doctor_1.png.webp": "/static/media/doctor_1.png.e1eb1ddfe869faf3fc26.webp",
+    "static/media/about_bg.png.webp": "/static/media/about_bg.png.813238104dbfaf9a6bbb.webp",
+    "static/media/banner_2.svg": "/static/media/banner_2.047615d488a55a65e4d629a1d78057c3.svg",
+    "static/media/tooth-img.svg": "/static/media/tooth-img.29f11fd320af1f04db2183678549996c.svg",
+    "index.html": "/index.html",
+    "static/media/banner_1.svg": "/static/media/banner_1.c5ae725a737e33ec9cd1393e217d1f87.svg",
+    "static/media/eye-img.svg": "/static/media/eye-img.15a76cc6e45ff57fb61babdd3b6b364c.svg",
+    "static/media/banner_3.svg": "/static/media/banner_3.5dd75d291285c7a5b08e8d8d144d3db2.svg",
+    "static/media/medico.logo.webp": "/static/media/medico.logo.8b5530f249efe66bc440.webp",
+    "main.b4e5a19a.css.map": "/static/css/main.b4e5a19a.css.map",
+    "main.475fd6fd.js.map": "/static/js/main.475fd6fd.js.map",
+    "488.359b97fb.chunk.js.map": "/static/js/488.359b97fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4e5a19a.css",
+    "static/js/main.475fd6fd.js"
+  ]
+}

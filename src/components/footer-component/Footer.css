@@ -1,0 +1,170 @@
+.footer-1 {
+    width: 160px;
+}
+
+.main-text {
+    font-size: 14px;
+    color: gray;
+}
+
+.medico {
+    width: 10%;
+    height: 20%;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.seed {
+    color: gray;
+}
+
+.a-footer {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.a-footer:hover {
+    color: #0065e1;
+}
+
+.title {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.footer {
+    padding-top: 100px;
+    /* height: 591px; */
+    padding-left: 30px;
+    /* width: 1232px; */
+    background-color: #F3F6F7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.li-footer {
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+.footer-1 {
+    margin-top: 30px;
+    width: 220px;
+    font-size: 16px;
+}
+
+.footer-2 {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-3 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-4 {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-footer {
+    padding-left: 0;
+}
+
+.footer-5 {
+    margin-top: 10px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.medico {
+    width: 130px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+
+.footer-button {
+    /* display: inline-block; */
+    background-color: #0065e1;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+    margin: auto;
+
+}
+
+.footer-input {
+    padding: 20px;
+    position: relative;
+    border: 1px solid #e1e1e1;
+    /* padding: 10px; */
+    font-size: 14px;
+    height: 48px;
+    width: 90%;
+    font-weight: 400;
+    background-color: transparent;
+
+}
+
+.footer-input::placeholder {
+    color: #cbcbcb;
+}
+
+.arrow-right-footer {
+    color: white;
+}
+
+.icon-social-footer {
+    color: #cbcbcb;
+    margin-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon-social-footer:hover {
+    color: #0065e1;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .footer-1,
+    .footer-2,
+    .footer-3 {
+        width: 20%;
+    }
+
+    .footer-4,
+    .footer-5 {
+        width: 50%;
+    }
+
+    .seed {
+        width: 100%;
+    }
+
+    .input-button {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer>div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

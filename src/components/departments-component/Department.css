@@ -1,0 +1,140 @@
+.h2-department{
+    font-size: 44px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: "Playfair Display", serif
+}
+.eye-img-department{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.h4-department{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 17px;
+    margin-bottom: 27px;
+    transition: all 1s ease 0s;
+}
+.span-img{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(242, 246, 248);
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: -25px;
+}
+.department{
+    margin-right: 40px;
+    width: 360px;
+    position: relative;
+    border: 1px solid rgb(242, 246, 248);
+    padding: 60px 15px 32px;
+    margin-bottom: 60px;
+    transition: all 1s ease 0s;
+    &:hover{
+        background-color: #007bff;
+
+    }
+}
+.department:hover .h4-department{
+    color: white;
+}
+.department:hover .p-department{
+    color: white;
+}
+.p-department{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    line-height: 1.929;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: rgb(136, 136, 136);
+}
+.departments-row{
+    display: flex;
+}
+.departments-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.department-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+.department-content{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 100px 0;
+}
+.department-box{
+    background-image: url(../../assets/review_bg.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+.overlay-department{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 25, 171);
+    opacity: 0.8;
+    z-index: -1;
+}
+@media only screen and (max-width:991px){
+    .h2-department{
+        margin-bottom: 60px;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    }
+    .department{
+        margin-top: 0px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 40px;
+    }
+    .department-content{
+        background-color: transparent;
+    }
+    .department-box{
+        margin-top: 70px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .departments-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .departments-column{
+        display: flex;
+        flex-direction: column;
+    }
+    .department-box{
+        margin-top: 70px;
+    }
+}
